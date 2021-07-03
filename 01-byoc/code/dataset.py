@@ -190,8 +190,28 @@ class SoundDataset_test(SoundDataset):
                 lb = 3
             elif row.GlassBreaking == 1:
                 lb = 4
-            elif row.Other == 1:
+            elif row.Other == 1: #Other/Vacuum/Blender/Electrics/Cat/Dishes
                 lb = 5
+            elif row.Vacuum == 1:
+                lb = 10
+            elif row.Blender == 1:
+                lb = 11
+            elif row.Electrics == 1:
+                lb = 12
+            elif row.Cat == 1:
+                lb = 13
+            elif row.Dishes == 1:
+                lb = 14
+            elif row.Doorbell == 1:
+                lb = 6
+            elif row.Bird == 1:
+                lb = 7
+            elif row.Music_Instrument == 1:
+                lb = 8
+            elif row.Laugh_Shout_Scream == 1:
+                lb = 9
+            else:
+                print("error! missing label~")
             label.append(lb)
             filenames.append(path)
         return data, label, filenames
