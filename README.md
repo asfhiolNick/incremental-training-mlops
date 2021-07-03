@@ -42,3 +42,7 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
+//What we have to do?!
+1. jupyter -> terminal -> cd SageMaker -> git clone https://github.com/aws-samples/incremental-training-mlops.git
+2. 手動上傳"train.zip" from google雲端/AWSVersion
+
