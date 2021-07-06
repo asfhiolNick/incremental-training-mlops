@@ -42,6 +42,8 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 
 This library is licensed under the MIT-0 License. See the LICENSE file.
 
+/************************************************************************************************************/
 //What we have to do?!
 1. jupyter -> terminal -> cd SageMaker -> git clone https://github.com/asfhiolNick/incremental-training-mlops
-2. 
+2. 在folder "incremental-training-mlops", 執行prepare.ipynb
+3. 在folder "01-byoc", 執行audio.ipynb
